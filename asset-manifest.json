@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/zmih_air/static/css/main.92204392.css",
+    "main.js": "/zmih_air/static/js/main.f783d196.js",
+    "static/media/background.png": "/zmih_air/static/media/background.fc8cfb1ee2624ed32582.png",
+    "index.html": "/zmih_air/index.html",
+    "main.92204392.css.map": "/zmih_air/static/css/main.92204392.css.map",
+    "main.f783d196.js.map": "/zmih_air/static/js/main.f783d196.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92204392.css",
+    "static/js/main.f783d196.js"
+  ]
+}
