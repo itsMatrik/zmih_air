@@ -1,0 +1,18 @@
+.root {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid rgb(34, 58, 255);
+    transition: 1s transform;
+}
+
+.root:hover {
+    transform: rotate(360deg);
+}
+
+@media (max-width: 981px) {
+    .root {
+        margin-top: 40px;
+    }
+}

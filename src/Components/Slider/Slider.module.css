@@ -1,0 +1,40 @@
+.h1 {
+    text-align: center;
+    background-color: rgba(14, 103, 211, 0.801);
+    box-shadow: 0px 0px 5px rgb(70 70 70);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 10px 15px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.container {
+    width: 750px;
+    height: 500px;
+    margin: 0 auto 50px;
+    position: relative;
+}
+
+.image {
+    width: 750px;
+    height: 500px;
+    border-radius: 30px;
+    background-position: center top;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.arrowL, .arrowR {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.arrowR {
+    right: 0;
+}
+
+.arrowL:hover, .arrowR:hover {
+    filter: drop-shadow(0 0 10px #999);
+}

@@ -1,0 +1,8 @@
+.root {
+    border-radius: 50%;
+    background-position: center top;
+    background-size: cover;
+    border: 5px solid rgba(37, 135, 255, 0.548);
+    width: 70px;
+    height: 70px;
+}

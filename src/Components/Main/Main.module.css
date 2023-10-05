@@ -1,0 +1,60 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.ramka {
+    text-align: center;
+    background-color: rgba(14, 103, 211, 0.801);
+    box-shadow: 0px 0px 5px rgb(70 70 70);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.button {
+    background: blue;
+    box-shadow: 0px 0px 5px rgb(100 123 152);
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 24px 42px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s background;
+}
+
+.button:hover {
+    background-color: rebeccapurple;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstText {
+    font-size: 24px;
+    line-height: 28px;
+    color: rgb(0, 0, 0);
+}
+
+.secondText {
+    margin-top: 14px;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.thirdText {
+    margin-bottom: 10px;
+}
+
+@media all and (max-width:981px) {
+    .root {
+        flex-direction: column;
+    }
+}

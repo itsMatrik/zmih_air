@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+.app {
+    background-image: url('../public/background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #779CCD;
+}
+
+.container {
+    padding-top: 40px;
+    max-width: 945px;
+    margin: 0 auto;
+}
+
+.pilots {
+    text-align: center;
+    background-color: rgba(14, 103, 211, 0.801);
+    box-shadow: 0px 0px 5px rgb(70 70 70);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 10px 30px;
+}
+
+.companiesContainer {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: -webkit-center;
+}
+
+.allRights {
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
